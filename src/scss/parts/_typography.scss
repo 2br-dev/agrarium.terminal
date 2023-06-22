@@ -1,0 +1,6 @@
+@import './fonts.scss';
+
+body{
+	font-family: 'Bliss Pro';
+	font-size: clamp(16px, 2vw, 18px);
+}

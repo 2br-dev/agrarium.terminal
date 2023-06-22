@@ -1,0 +1,11 @@
+<div class="auditory waves-effect" data-id="@@id" data-room="@@room">
+	<div class="room-wrapper">
+		<div class="room">@@room</div>
+		<div class="suffix">@@suffix</div>
+	</div>
+	<div class="names">
+		@@if(context.names){
+			@@for(let i=0; i<names.length; i++){<div class="name">`+names[i]+`</div>}		
+		}
+	</div>
+</div>

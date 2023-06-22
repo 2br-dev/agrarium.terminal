@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1646.32 535.44">
+	<!-- <defs>
+		<style>
+			.corridor-stairs {
+				fill: #f0efef;
+			}
+
+			.inactive-room {
+				fill: #cccccb;
+			}
+
+			.active-room {
+				fill: #c6e0a6;
+			}
+
+			.infrostructure {
+				fill: #026d7d;
+			}
+
+			.cls-1 {
+				fill: none;
+				stroke: #21832d;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-width: 0.97px;
+			}
+
+			.cls-2 {
+				font-size: 20.91px;
+			}
+
+			.cls-2, .icon {
+				fill: #7d7d7d;
+			}
+
+			.cls-2, .cls-5, .cls-6 {
+				font-family: BlissPro, Bliss Pro;
+			}
+
+			.cls-3 {
+				letter-spacing: 0.05em;
+			}
+
+			.cls-4 {
+				font-size: 27.81px;
+				font-family: BlissPro-Heavy, Bliss Pro;
+				font-weight: 800;
+			}
+
+			.cls-4, .infrostructure-icon {
+				fill: #fff;
+			}
+
+			.cls-5 {
+				font-size: 18.28px;
+			}
+
+			.cls-5, .cls-6, .cls-9 {
+				fill: #7e7e7e;
+			}
+
+			.cls-6 {
+				font-size: 12.33px;
+			}
+
+			.cls-7 {
+				letter-spacing: 0.05em;
+			}
+
+			.cls-8 {
+				letter-spacing: 0.05em;
+			}
+
+			.marker-2 {
+				fill: #e4032c;
+			}
+		</style>
+	</defs> -->
+	<g id="corridors">
+		<path class="corridor-stairs" d="M1642.84,431.82h-76.1a3.66,3.66,0,0,1-3.66-3.67V118.87a3.66,3.66,0,0,0-3.66-3.67H1531a3.66,3.66,0,0,0-3.66,3.67V428.15a3.67,3.67,0,0,1-3.67,3.67H1139.29a3.66,3.66,0,0,1-3.66-3.67V325.86a3.66,3.66,0,0,0-3.66-3.67H766.35a3.66,3.66,0,0,1-3.67-3.66V267.26a3.67,3.67,0,0,0-3.66-3.67H688.73a3.66,3.66,0,0,1-3.67-3.66V195.27a3.66,3.66,0,0,0-3.66-3.66H574.71a3.66,3.66,0,0,0-3.66,3.66v64.66a3.66,3.66,0,0,1-3.67,3.66H498.11a3.67,3.67,0,0,0-3.67,3.67v51.27a3.66,3.66,0,0,1-3.66,3.66H125.16a3.66,3.66,0,0,0-3.66,3.67V428.15a3.67,3.67,0,0,1-3.67,3.67H3.85a3.66,3.66,0,0,0-3.67,3.66v21.65a3.66,3.66,0,0,0,3.67,3.66h114a3.66,3.66,0,0,1,3.67,3.66v13.68a3.66,3.66,0,0,0,3.66,3.66h46.22a3.67,3.67,0,0,0,3.67-3.66V357.19a3.66,3.66,0,0,1,3.66-3.66h899.71a3.66,3.66,0,0,1,3.66,3.66V478.13a3.66,3.66,0,0,0,3.67,3.66H1132a3.66,3.66,0,0,0,3.66-3.66V464.45a3.66,3.66,0,0,1,3.66-3.66h503.55a3.66,3.66,0,0,0,3.67-3.66V435.48A3.66,3.66,0,0,0,1642.84,431.82Z" transform="translate(-0.18 0.03)"/>
+		<rect class="corridor-stairs" x="1456.93" y="115.23" width="66.96" height="34.4" rx="3.66"/>
+		<rect class="corridor-stairs" x="688.1" y="191.64" width="37.44" height="68.77" rx="3.66"/>
+		<rect class="corridor-stairs" x="529.64" y="191.64" width="38.01" height="68.77" rx="3.66"/>
+		<rect class="corridor-stairs" x="1138.67" y="371.26" width="77.82" height="57.36" rx="3.66"/>
+		<rect class="corridor-stairs" x="41.45" y="371.26" width="76.64" height="57.36" rx="3.66"/>
+	</g>
+	<g id="inactiveRooms">
+		<path class="inactive-room" d="M759,356.75H652.62a3.66,3.66,0,0,0-3.66,3.66v64.52a3.66,3.66,0,0,0,3.66,3.67H759a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,759,356.75Z" transform="translate(-0.18 0.03)"/>
+		<path class="inactive-room" d="M642.07,356.75H535a3.66,3.66,0,0,0-3.66,3.66v64.52A3.66,3.66,0,0,0,535,428.6h107a3.67,3.67,0,0,0,3.67-3.67V360.41A3.66,3.66,0,0,0,642.07,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="494.26" y="356.77" width="33.71" height="71.85" rx="3.66"/>
+		<path class="inactive-room" d="M840.32,356.75H769.57a3.66,3.66,0,0,0-3.67,3.66v64.52a3.67,3.67,0,0,0,3.67,3.67h70.75a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,840.32,356.75Z" transform="translate(-0.18 0.03)"/>
+		<path class="inactive-room" d="M959.65,356.75H850.87a3.66,3.66,0,0,0-3.67,3.66v64.52a3.67,3.67,0,0,0,3.67,3.67H959.65a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,959.65,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" y="464.03" width="78.01" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="81.23" y="464.03" width="36.86" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="966.35" y="356.77" width="36.71" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="121.31" y="485.03" width="53.55" height="50.41" rx="3.66"/>
+		<path class="inactive-room" d="M487.56,356.75H337.94a3.66,3.66,0,0,0-3.66,3.66v64.52a3.66,3.66,0,0,0,3.66,3.67H487.56a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,487.56,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="294.33" y="356.77" width="36.54" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="371.26" width="66.96" height="57.36" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="344.37" width="66.96" height="23.67" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="305.72" width="66.96" height="35.43" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="115.23" width="80.21" height="69.7" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="188.15" width="80.21" height="76.24" rx="3.66"/>
+		<rect class="inactive-room" x="1006.28" y="356.77" width="72.4" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="152.84" width="66.96" height="34.36" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="229.09" width="66.96" height="34.09" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="190.43" width="66.96" height="35.44" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="266.39" width="66.96" height="36.11" rx="3.66"/>
+		<rect class="inactive-room" x="1218.61" y="464.03" width="38.15" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1259.98" y="464.03" width="35.63" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1081.9" y="485.03" width="53.55" height="50.41" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="267.61" width="80.21" height="74.24" rx="3.66"/>
+		<rect class="inactive-room" x="1609.31" y="464.03" width="37.01" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="345.06" width="80.21" height="83.56" rx="3.66"/>
+		<rect class="inactive-room" x="1004.82" y="263.62" width="36.76" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="848.63" y="263.62" width="33.82" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="885.67" y="263.62" width="36.72" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="965.5" y="263.62" width="36.1" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="925.61" y="263.62" width="36.67" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="807.96" y="263.62" width="37.44" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="765.72" y="263.62" width="39.03" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1044.8" y="263.62" width="33.88" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1081.9" y="263.62" width="53.55" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1259.98" y="371.26" width="37.52" height="57.36" rx="3.66"/>
+		<rect class="inactive-room" x="178.08" y="263.62" width="35.49" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="334.37" y="263.62" width="36.72" height="55.38" rx="3.66"/>
+		<path class="inactive-room" d="M327.67,263.59h-107a3.67,3.67,0,0,0-3.66,3.67v48.05a3.66,3.66,0,0,0,3.66,3.66h107a3.66,3.66,0,0,0,3.67-3.66V267.26A3.67,3.67,0,0,0,327.67,263.59Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="374.31" y="263.62" width="32.1" height="55.38" rx="3.66"/>
+		<path class="inactive-room" d="M522.14,0V184.73a3.66,3.66,0,0,0,3.67,3.66H730.3a3.66,3.66,0,0,0,3.67-3.66V0Z" transform="translate(-0.18 0.03)"/>
+	</g>
+	<g id="activeRooms">
+		<rect id="r243" class="active-room" x="1300.72" y="371.26" width="74.96" height="57.36" rx="3.66"/>
+		<rect id="r256" class="active-room" x="121.31" y="263.62" width="53.55" height="55.38" rx="3.66"/>
+		<rect id="r213" class="active-room" x="178.08" y="356.77" width="113.03" height="71.85" rx="3.66"/>
+		<rect id="r225" class="active-room" x="1138.67" y="464.03" width="76.72" height="71.41" rx="3.66"/>
+		<rect id="r228" class="active-room" x="1298.83" y="464.03" width="155.02" height="71.41" rx="3.66"/>
+		<rect id="r229" class="active-room" x="1457.08" y="464.03" width="75.91" height="71.41" rx="3.66"/>
+		<rect id="r230" class="active-room" x="1536.21" y="464.03" width="69.89" height="71.41" rx="3.66"/>
+		<rect id="r253" class="active-room" x="409.63" y="263.62" width="81.41" height="55.38" rx="3.66"/>
+		<rect id="r242" class="active-room" x="1378.9" y="371.26" width="74.81" height="57.36" rx="3.66"/>
+		<rect id="rrestroom2m" class="infrastructure" x="1219.7" y="371.26" width="37.06" height="57.36" rx="3.66"/>
+		<rect id="rrestroom2f" class="infrastructure" y="371.26" width="38.24" height="57.36" rx="3.66"/>
+	</g>
+	<g id="paths">
+		<path id="p225" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h48.72a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p228" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h245a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p229" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h364.36a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p230" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h440.47a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p243" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h207.53a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="p242" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h285.63a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="p253" class="path" d="M548.74,337.14H461.52a11,11,0,0,1-11-11V319" transform="translate(-0.18 0.03)"/>
+		<path id="p256" class="path" d="M548.74,337.14H159.27a11,11,0,0,1-11-11V319" transform="translate(-0.18 0.03)"/>
+		<path id="p213" class="path" d="M548.74,337.14H253.26a11,11,0,0,0-11,11v8.61" transform="translate(-0.18 0.03)"/>
+		<path id="prestroom2m" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h107a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="prestroom2f" class="path" d="M548.74,337.14H159.27a11,11,0,0,0-11,11v87.13a11,11,0,0,1-11,11H28.52a11,11,0,0,1-11-11V428.6" transform="translate(-0.18 0.03)"/>
+	</g>
+	<g id="labels">
+		<text id="l213" class="label" transform="translate(219.21 398.02)">213</text>
+		<text id="l253" class="label" transform="translate(434.79 299.77)">253</text>
+		<text id="l225" class="label" transform="translate(1161.42 506.08)">225</text>
+		<text id="l227а" class="label" transform="translate(1316.43 506.08)">227а</text>
+		<text id="l228" class="label" transform="translate(1397.2 508.31)">228</text>
+		<text id="l229" class="label" transform="translate(1480.44 508.31)">229</text>
+		<text id="l230" class="label" transform="translate(1550.67 508.31)">230</text>
+		<text id="l242" class="label" transform="translate(1399.98 407.82)">242</text>
+		<text id="l243" class="label" transform="translate(1320.33 407.82)">243</text>
+		<text id="l256" class="label" transform="translate(132.16 298.52)">256</text>
+		<text id="lrestroom2f" class="restroom-label" transform="translate(5.95 422.91)">Ж</text>
+		<text id="lrestroom2m" class="restroom-label" transform="translate(1226.54 422.91)">М</text>
+	</g>
+	<g id="inactive_labels">
+		<text class="label small" transform="translate(300.94 398.02)">214</text>
+		<text class="label small" transform="translate(399.32 398.02)">215</text>
+		<text class="label small" transform="translate(498.19 398.02)">217</text>
+		<text class="label small" transform="translate(575.59 398.02)">218</text>
+		<text class="label small" transform="translate(695.39 398.02)">219</text>
+		<text class="label small" transform="translate(790.23 398.02)">220</text>
+		<text class="label small" transform="translate(894.48 398.02)">221</text>
+		<text class="label small" transform="translate(970.58 398.02)">222</text>
+		<text class="label small" transform="translate(1027.27 398.02)">223</text>
+		<text class="label small" transform="translate(771.13 296.41)">252</text>
+		<text class="label small" transform="translate(813.44 296.41)">251</text>
+		<text class="label small" transform="translate(852.72 296.41)">250</text>
+		<text class="label small" transform="translate(889.29 296.41)">249</text>
+		<text class="label small" transform="translate(930.13 297.69)">248</text>
+		<text class="label small" transform="translate(971.71 297.69)">248а</text>
+		<text class="label small" transform="translate(1007.59 296.41)">247</text>
+		<text class="label small" transform="translate(1223.85 506.08)">226</text>
+		<text class="label small" transform="translate(1264.96 506.08)">227</text>
+		<text class="label small" transform="translate(1616.81 508.31)">230а</text>
+		<text class="label small" transform="translate(1476.74 407.82)">241</text>
+		<text class="label small" transform="translate(1592.77 394.97)">231</text>
+		<text class="label small" transform="translate(1591.91 310.48)">232</text>
+		<text class="label small" transform="translate(1476.12 175.5)">235</text>
+		<text class="label small" transform="translate(1475.83 213.34)">236</text>
+		<text class="label small" transform="translate(1476.44 251.94)">237</text>
+		<text class="label small" transform="translate(1475.72 289.45)">238</text>
+		<text class="label small" transform="translate(1475.89 328.78)">239</text>
+		<text class="label small" transform="translate(1475.49 360.83)">240</text>
+		<text class="label small" transform="translate(1594.81 229.09)">233</text>
+		<text class="label small" transform="translate(338.18 299.77)">254</text>
+		<text class="label small" transform="translate(263.11 299.77)">255</text>
+		<text class="label small" transform="translate(177.39 299.77)">255а</text>
+		<text class="label small" transform="translate(377.78 299.77)">253а</text>
+		<text class="label small" transform="translate(27.8 506.08)">210</text>
+		<text class="label small" transform="translate(87.26 506.08)">211</text>
+		<text class="label small" transform="translate(1046.94 296.41)">246</text>
+		<text class="label small" transform="translate(1263.8 406.78)">244</text>
+		<text class="label small" transform="translate(1094.14 516.73)">224</text>
+		<text class="label small" transform="translate(1594.13 154.89)">234</text>
+		<text class="label small" transform="translate(134.37 516.73)">212</text>
+		<text class="label small" transform="translate(1093.7 296.41)">245</text>
+	</g>
+	<g id="icons">
+		<path class="icon" d="M699.5,233.39v-1c0-1.09,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33V223.2c0-1.14.52-1.65,1.66-1.65h4.27v-4.41a1.35,1.35,0,0,1,1.41-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.71,0-4.06,0h-.44v.76c0,1.2,0,2.39,0,3.58a1.44,1.44,0,0,1-1.59,1.59H708.4v.41c0,1.28,0,2.56,0,3.85,0,1.13-.52,1.64-1.66,1.64h-4.26v4.42a1.36,1.36,0,0,1-1.42,1.5c-2,0-4,0-6.07,0a1.36,1.36,0,0,1-1.39-1.24,1.42,1.42,0,0,1,1-1.64,2.89,2.89,0,0,1,.72-.08h4.21Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M1169.8,407.31V403a1.45,1.45,0,0,1,1.6-1.59h4.33V401c0-1.28,0-2.56,0-3.85,0-1.13.52-1.64,1.66-1.64h4.27v-.4c0-1.34,0-2.68,0-4a1.34,1.34,0,0,1,1.41-1.5q3,0,6.07,0a1.33,1.33,0,0,1,1.39,1.47,1.35,1.35,0,0,1-1.41,1.47c-1.35,0-2.7,0-4,0h-.44v4.34a1.45,1.45,0,0,1-1.6,1.59h-4.33v4.26c0,1.14-.52,1.65-1.66,1.65h-4.27v4.42a1.35,1.35,0,0,1-1.41,1.49c-2,0-4,0-6.07,0a1.33,1.33,0,0,1-1.39-1.24,1.4,1.4,0,0,1,1-1.63,2.49,2.49,0,0,1,.72-.08h4.22Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M1483.19,139.8v-1.05c0-1.1,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33v-.41c0-1.29,0-2.57,0-3.85s.52-1.65,1.65-1.65H1495v-4.42a1.35,1.35,0,0,1,1.42-1.49q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.7,0-4.06,0H1498v.76c0,1.19,0,2.38,0,3.58a1.44,1.44,0,0,1-1.59,1.58h-4.33v4.27a1.44,1.44,0,0,1-1.66,1.64h-4.27v4.42a1.36,1.36,0,0,1-1.42,1.5q-3,0-6.07,0a1.35,1.35,0,0,1-1.39-1.23,1.42,1.42,0,0,1,1-1.64,2.49,2.49,0,0,1,.72-.08c1.27,0,2.54,0,3.81,0Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M541.33,233.39v-1c0-1.09,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33v-.41c0-1.28,0-2.57,0-3.85s.52-1.65,1.65-1.65h4.27v-4.41a1.36,1.36,0,0,1,1.42-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.7,0-4.06,0h-.43v.76c0,1.2,0,2.39,0,3.58a1.44,1.44,0,0,1-1.59,1.59h-4.33v4.26a1.44,1.44,0,0,1-1.66,1.64H544.3v4.42a1.35,1.35,0,0,1-1.42,1.5q-3,0-6.07,0a1.34,1.34,0,0,1-1.38-1.24,1.41,1.41,0,0,1,1-1.64,2.89,2.89,0,0,1,.72-.08h4.22Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M75.94,407.31v-1c0-1.1,0-2.2,0-3.3a1.44,1.44,0,0,1,1.59-1.59h4.33v-4.26c0-1.13.52-1.64,1.66-1.64H87.8v-4.42a1.35,1.35,0,0,1,1.41-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.71,0-4.06,0h-.44v.77c0,1.19,0,2.38,0,3.57a1.44,1.44,0,0,1-1.59,1.59H84.85v.41c0,1.28,0,2.57,0,3.85s-.52,1.65-1.66,1.65H78.92v4.42a1.35,1.35,0,0,1-1.42,1.49c-2,0-4,0-6.07,0A1.35,1.35,0,0,1,70,409a1.41,1.41,0,0,1,1-1.63,2.49,2.49,0,0,1,.72-.08h4.21Z" transform="translate(-0.18 0.03)"/>
+		<path class="infrastructure-icon" d="M13.42,382.35a2.71,2.71,0,0,0,.71-5.14c-.24-.11-.51-.17-.76-.26H12.6l-.12.05a2.72,2.72,0,0,0,.94,5.35ZM13,378.76a.9.9,0,0,1,.89.92.89.89,0,1,1-1.78,0A.91.91,0,0,1,13,378.76Zm12.21,3.59a2.74,2.74,0,0,0,2.25-2.24,2.7,2.7,0,0,0-1.54-2.9c-.24-.11-.51-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,.94,5.35Zm-.44-3.59a.92.92,0,0,1,.9.92.9.9,0,1,1-.9-.92Zm5.38,15.58c-.1-.81-.25-1.61-.39-2.41q-.54-3.18-1.07-6.37a2.65,2.65,0,0,0-2.31-2.26,19.13,19.13,0,0,0-3.12,0,2.49,2.49,0,0,0-2.31,2c-.2.78-.31,1.58-.45,2.37-.36,2.06-.71,4.13-1.08,6.19a8.19,8.19,0,0,0-.08,1.65H22v4.65h1.83v-4.64h1.79v4.64h1.84v-4.65h2.65A8.46,8.46,0,0,0,30.13,394.34Zm-8.84-.69c.06-.4.13-.79.2-1.17l.93-5.39c.07-.41.15-.83.22-1.24a.9.9,0,0,1,.9-.79H26a.88.88,0,0,1,.9.79q.55,3.22,1.09,6.45c.08.45.15.89.23,1.35Zm-6.61-10.41c-1.16,0-2.31,0-3.47,0a3.05,3.05,0,0,0-.67.07,2.71,2.71,0,0,0-2.09,2.74q0,3.65,0,7.28a1.93,1.93,0,0,0,0,.23h1.8v6.54h1.81v-8.36H10.28v-.21c0-1.82,0-3.64,0-5.45a.92.92,0,0,1,1-1c1.11,0,2.22,0,3.33,0a1,1,0,0,1,1.06,1.06c0,1.8,0,3.59,0,5.39,0,.08,0,.16,0,.26H13.89v8.36h1.83v-6.56H17.5a.65.65,0,0,0,0-.11c0-2.49,0-5,0-7.49A2.73,2.73,0,0,0,14.68,383.24Z" transform="translate(-0.18 0.03)"/>
+		<path class="infrastructure-icon" d="M1232.53,382.35a2.71,2.71,0,0,0,.71-5.14c-.24-.11-.5-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,.94,5.35Zm-.43-3.59a.92.92,0,0,1,.89.92.9.9,0,1,1-1.79,0A.92.92,0,0,1,1232.1,378.76Zm12.21,3.59a2.71,2.71,0,0,0,.7-5.14c-.24-.11-.5-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,1,5.35Zm-.44-3.59a.91.91,0,0,1,.89.92.89.89,0,1,1-.89-.92Zm5.38,15.58c-.11-.81-.26-1.61-.39-2.41-.36-2.12-.73-4.24-1.08-6.37a2.63,2.63,0,0,0-2.31-2.26,19.11,19.11,0,0,0-3.12,0,2.49,2.49,0,0,0-2.31,2c-.2.78-.3,1.58-.44,2.37-.37,2.06-.72,4.13-1.08,6.19a7.52,7.52,0,0,0-.08,1.65h2.7v4.65H1243v-4.64h1.79v4.64h1.83v-4.65h2.66A8.46,8.46,0,0,0,1249.25,394.34Zm-8.85-.69c.07-.4.13-.79.2-1.17.31-1.8.62-3.59.94-5.39.07-.41.14-.83.22-1.24a.9.9,0,0,1,.9-.79h2.42a.89.89,0,0,1,.9.79q.54,3.22,1.09,6.45c.07.45.15.89.23,1.35Zm-6.61-10.41c-1.15,0-2.31,0-3.46,0a3.05,3.05,0,0,0-.67.07,2.73,2.73,0,0,0-2.1,2.74v7.28c0,.07,0,.14,0,.23h1.81v6.54h1.81v-8.36h-1.8v-5.66a.92.92,0,0,1,1-1c1.11,0,2.22,0,3.33,0a1,1,0,0,1,1.06,1.06c0,1.8,0,3.59,0,5.39a2.44,2.44,0,0,1,0,.26H1233v8.36h1.82v-6.56h1.79a.49.49,0,0,0,0-.11c0-2.49,0-5,0-7.49A2.74,2.74,0,0,0,1233.79,383.24Z" transform="translate(-0.18 0.03)"/>
+		<circle class="marker" cx="706.73" cy="337.17" r="4.78"/>
+		<circle class="marker" cx="548.55" cy="337.17" r="4.78"/>
+	</g>
+</svg>

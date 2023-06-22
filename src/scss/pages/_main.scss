@@ -1,0 +1,108 @@
+body{
+	min-height: 100vh;
+	margin: 0;
+	position: relative;
+	background: radial-gradient(circle at 2vw 10vw, #FFB046, transparent 6%), radial-gradient(circle at 35vw -15vw, #c7ff9c, transparent 35%);
+
+	.main-wrapper{
+		min-height: 100vh;
+	}
+
+	& .row{
+		margin: 0;
+
+		& .col{
+			// padding: clamp(5px, 2vw, 30px);
+			padding: 0;
+			box-sizing: border-box;
+		}
+	}
+
+	& .map-header{
+
+		display: flex;
+		align-items: center;
+		border-radius: 10px;
+		padding: 40px;
+
+		& h1{
+			font-size: 72px;
+			color: $primary;
+			margin-right: 30px;
+		}
+
+		& .intro{
+			padding: 20px;
+			box-sizing: border-box;
+			border-radius: 10px;
+			font-size: 20px;
+		}
+	}
+
+	& .tab-content{
+		display: none;
+
+		& h2{
+			color: $primary;
+			font-size: 64px;
+			line-height: 1em;
+			margin: 0;
+			margin-bottom: 1rem;
+		}
+
+		&.active{
+			display: block;
+		}
+
+		& .auditory{
+
+			display: flex;
+			padding: 15px;
+			margin-bottom: 20px;
+			background-color: #F3F3F3;
+			border-radius: 5px;
+			align-items: center;
+
+			& .names{
+				font-size: 19.5px;
+				font-weight: 500;
+			}
+
+			& .room-wrapper{
+				
+				color: #7D7D7D;
+				margin-right: 20px;
+
+				& .room{
+					font-size: 40px;
+				}
+
+				& .suffix{
+					font-size: 18px;
+				}
+			}
+
+			&.active{
+				background-color: $accent;
+				color: #fff;
+
+				& .room-wrapper{
+
+					& .room{
+						color: #fff;
+					}
+
+					& .suffix{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	& .navi-wrapper{
+		background-color: $primary-light;
+		box-shadow: 0 4px 100px rgba(#026D7D, .25);
+		padding: 20px !important;
+	}
+}

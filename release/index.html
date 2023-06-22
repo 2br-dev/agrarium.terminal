@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/master.css">
+</head>
+<body data-lang="ru">
+	<div class="row flex main-wrapper">
+		<div class="col l9">
+			<div class="row flex vcenter map-header">
+				<div class="col l2">
+					<img src="/img/v.png" alt="">
+				</div>
+				<div class="col l4">
+					<h1 data-en="Welcome, enrollee!" data-ru="Привет, абитуриент!"></h1>
+				</div>
+				<div class="col l5">
+					<div class="intro">
+						<strong 
+							data-en="We're glad to welcome you in your in-future alma-mater"
+							data-ru="Мы рады видеть тебя в стенах твоей будущей альма-матер!"
+							>
+						</strong>
+						<p 
+							data-ru="Этот терминал навигации построит маршрут к нужному кабинету, достаточно выбрать пункт назначения из списка справа. Если в списке чего-то нет, переключись между этажами, наверняка это есть на другом этаже... И помни: кто ищет, тот всегда найдёт!"
+							data-en="This navigation terminal will guide you to room you looking for, all you need - choose destination from list at right. If you doesn't find something, check out another floor, may be it's there. Remember, who searching that founds!"
+						>	
+						</p>
+						<ul class="tabs">
+							<li class="tab active"><a href="#floor1" data-ru="Этаж 1" data-en="1st floor"></a></li>
+							<li class="tab"><a href="#floor2" data-ru="Этаж 2" data-en="2nd floor"></a></li>
+							<li class="indicator"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="map-wrapper">
+				<div class="floor" id="floor-1">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1646.69 535.39">
+	<g id="corridors">
+		<path class="corridor-stairs" d="M1412.21,411.38a4.4,4.4,0,0,1-4.39-4.39V284.49a4.38,4.38,0,0,0-4.38-4.39H969.57a4.38,4.38,0,0,0-4.38,4.39v28.75a4.39,4.39,0,0,0,4.38,4.39h369.75a4.38,4.38,0,0,1,4.39,4.38V466.79a4.4,4.4,0,0,0,4.39,4.39h55.34a4.39,4.39,0,0,0,4.38-4.39V450.42a4.39,4.39,0,0,1,4.39-4.38H1642.3a4.39,4.39,0,0,0,4.39-4.39V415.77a4.38,4.38,0,0,0-4.39-4.39Z"/>
+		<path class="corridor-stairs" d="M631.94,280.1H198.09a4.38,4.38,0,0,0-4.39,4.39V407a4.39,4.39,0,0,1-4.39,4.39H4.39A4.38,4.38,0,0,0,0,415.77v25.88A4.39,4.39,0,0,0,4.39,446H189.31a4.38,4.38,0,0,1,4.39,4.38v16.37a4.39,4.39,0,0,0,4.39,4.39h55.33a4.39,4.39,0,0,0,4.39-4.39V322a4.39,4.39,0,0,1,4.39-4.38H631.94a4.39,4.39,0,0,0,4.38-4.39V284.49A4.38,4.38,0,0,0,631.94,280.1Z"/>
+	</g>
+	<g id="inactiveRooms">
+		<rect class="corridor-stairs" x="872.27" y="123.77" width="44.82" height="82.33" rx="4.39"/>
+		<rect class="corridor-stairs" x="1411.68" y="338.82" width="93.17" height="68.67" rx="4.39"/>
+		<rect class="corridor-stairs" x="682.55" y="123.77" width="45.51" height="82.33" rx="4.39"/>
+		<rect class="corridor-stairs" x="98.09" y="338.82" width="91.75" height="68.67" rx="4.39"/>
+		<rect class="inactive-room" x="1603.43" y="338.82" width="43.26" height="68.67" rx="4.39"/>
+		<rect class="inactive-room" x="1297.38" y="209.95" width="42.48" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="1343.71" y="209.95" width="64.11" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="1507.38" y="449.88" width="45.69" height="85.49" rx="4.39"/>
+		<rect class="inactive-room" x="1556.91" y="449.88" width="42.66" height="85.49" rx="4.39"/>
+		<path class="inactive-room" d="M1607.82,449.88h38.87v85.5h-38.87a4.4,4.4,0,0,1-4.39-4.39V454.27A4.4,4.4,0,0,1,1607.82,449.88Z"/>
+		<rect class="inactive-room" x="1411.68" y="449.88" width="91.85" height="85.49" rx="4.39"/>
+		<rect class="inactive-room" x="1343.71" y="475.04" width="64.11" height="60.35" rx="4.39"/>
+		<rect class="inactive-room" x="1064.44" y="209.95" width="40.49" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="1204.2" y="321.47" width="135.67" height="86.02" rx="4.39"/>
+		<rect class="inactive-room" x="1156.6" y="209.95" width="136.92" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="544.09" y="321.47" width="92.25" height="86.02" rx="4.39"/>
+		<rect class="inactive-room" x="448.45" y="321.47" width="44.3" height="86.02" rx="4.39"/>
+		<rect class="inactive-room" x="193.7" y="475.04" width="64.11" height="60.35" rx="4.39"/>
+		<rect class="inactive-room" x="145.72" y="449.88" width="44.14" height="85.49" rx="4.39"/>
+		<rect class="inactive-room" x="0.49" y="449.88" width="44.14" height="85.49" rx="4.39"/>
+		<path class="inactive-room" d="M4.88,338.82H40.24c2.42,0,4.38,1.57,4.38,3.52V404c0,2-2,3.53-4.38,3.53H4.88c-2.43,0-4.39-1.58-4.39-3.53V342.34C.49,340.39,2.45,338.82,4.88,338.82Z"/>
+		<rect class="inactive-room" x="193.7" y="209.95" width="64.11" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="261.67" y="209.95" width="42.48" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="308" y="209.95" width="91.52" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="589.61" y="209.95" width="46.72" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="403.38" y="209.95" width="41.55" height="66.3" rx="4.39"/>
+		<rect class="inactive-room" x="448.79" y="209.95" width="43.96" height="66.3" rx="4.39"/>
+	</g>
+	<g id="activeRooms">
+		<path id="restroom1f" class="infrastructure" d="M1573.67,338.82h-60.58a4.38,4.38,0,0,0-4.39,4.38v59.9a4.39,4.39,0,0,0,4.39,4.39h82.09a4.39,4.39,0,0,0,4.39-4.39V343.2a4.38,4.38,0,0,0-4.39-4.38Z"/>
+		<rect id="r150" class="active-room" x="965.19" y="209.95" width="46.72" height="66.3" rx="4.39"/>
+		<rect id="r149" class="infrastructure" x="1015.77" y="209.95" width="44.82" height="66.3" rx="4.39"/>
+		<rect id="r147" class="infrastructure" x="1108.79" y="209.95" width="43.96" height="66.3" rx="4.39"/>
+		<rect id="r122" class="active-room" x="1156.93" y="321.47" width="43.4" height="86.02" rx="4.39"/>
+		<rect id="r121" class="active-room" x="965.19" y="321.47" width="187.9" height="86.02" rx="4.39"/>
+		<path id="start" class="active-room" d="M640.2,276.25V403.1a4.39,4.39,0,0,0,4.39,4.39H957a4.39,4.39,0,0,0,4.39-4.39V214.34A4.38,4.38,0,0,0,957,210H872.79a4.4,4.4,0,0,1-4.39-4.39h0v-77.4a4.38,4.38,0,0,0-4.38-4.39H736.29a4.38,4.38,0,0,0-4.38,4.39v77.4a4.4,4.4,0,0,1-4.39,4.39H644.59a4.38,4.38,0,0,0-4.39,4.39Z"/>
+		<rect id="r117" class="active-room" x="261.67" y="321.47" width="182.92" height="86.02" rx="4.39"/>
+		<rect id="r114" class="active-room" x="48.47" y="449.88" width="93.4" height="85.49" rx="4.39"/>
+		<rect id="r119" class="active-room" x="496.59" y="321.47" width="43.64" height="86.02" rx="4.39"/>
+		<rect id="restroom1m" class="infrastructure" x="48.47" y="338.82" width="45.77" height="68.67" rx="4.39"/>
+		<rect id="r152" class="active-room" x="496.59" y="209.95" width="89.18" height="66.3" rx="4.39"/>
+		<path id="rlibrary" class="active-room" d="M927,115.54V0H673.37V115.54a4.38,4.38,0,0,0,4.38,4.38H922.57A4.39,4.39,0,0,0,927,115.54Z"/>
+	</g>
+	<g id="paths">
+		<path id="p150" class="path" d="M800.77,298.86H974.91a14.56,14.56,0,0,0,14.57-14.56v-8.05"/>
+		<path id="p149" class="path" d="M800.77,298.86h222.85a14.56,14.56,0,0,0,14.56-14.56v-8.05"/>
+		<path id="p147" class="path" d="M800.77,298.86h315.44a14.56,14.56,0,0,0,14.56-14.56v-8.05"/>
+		<path id="p121" class="path" d="M800.77,298.86h249.11a14.56,14.56,0,0,1,14.56,14.57v8"/>
+		<path id="p122" class="path" d="M800.77,298.86h363.3a14.57,14.57,0,0,1,14.57,14.57v8"/>
+		<path id="prestroom1f" class="path" d="M800.77,298.86H1361.2a14.57,14.57,0,0,1,14.57,14.57V413.74a14.56,14.56,0,0,0,14.56,14.56h126a14.56,14.56,0,0,0,14.56-14.56v-6.25"/>
+		<path id="plibrary" class="path" d="M800.77,298.86V208.14a9.37,9.37,0,0,0-9.38-9.37h0a9.38,9.38,0,0,1-9.37-9.38V119.92"/>
+		<path id="p152" class="path" d="M800.16,298.86H555.74a14.56,14.56,0,0,1-14.56-14.56v-8.05"/>
+		<path id="p119" class="path" d="M800.16,298.86H533a14.56,14.56,0,0,0-14.56,14.57v8"/>
+		<path id="p117" class="path" d="M800.16,298.86H370.56A14.56,14.56,0,0,0,356,313.43v8"/>
+		<path id="p114" class="path" d="M800.16,298.86H240.32a14.56,14.56,0,0,0-14.56,14.57v99A14.57,14.57,0,0,1,211.19,427H109.74a14.56,14.56,0,0,0-14.57,14.56v8.31"/>
+		<path id="prestroom1m" class="path" d="M800.16,298.86H240.32a14.56,14.56,0,0,0-14.56,14.57v99A14.57,14.57,0,0,1,211.19,427H85.92a14.56,14.56,0,0,1-14.56-14.57v-4.95"/>
+	</g>
+	<g id="labels">
+		<text id="llibrary" class="label huge" transform="translate(804.42 80.03)"><tspan data-ru="Читальный" data-en="Reading" text-anchor="middle"></tspan><tspan x="0" y="26" data-ru="зал" data-en="hall" text-anchor="middle"></tspan></text>
+		<text id="lstart" class="label huge" transform="translate(748.02 367.93)">Вы здесь</text>
+		<text id="l150" class="label" transform="translate(972.95 250)">150</text>
+		<text id="l152" class="label" transform="translate(526.03 250)">152</text>
+		<text id="l121" class="label" transform="translate(1049.73 370.29)">121</text>
+		<text id="l122" class="label" transform="translate(1162.94 370.29)">122</text>
+		<text id="l119" class="label" transform="translate(504.98 370.29)">119</text>
+		<text id="l117" class="label" transform="translate(339.33 370.29)">117</text>
+		<text id="l114" class="label" transform="translate(80.51 499.07)">114</text>
+		<text id="l147" class="infrastructure-label" transform="translate(1115.52 267.62)">147</text>
+		<text id="l149" class="infrastructure-label" transform="translate(1022.3 267.62)">149</text>
+		<text id="restroom_m" class="restroom-label" transform="translate(61.09 392.49)">М</text>
+		<text id="restroom_f" class="restroom-label" transform="translate(1518.87 392.49)">Ж</text>
+	</g>
+	<g id="inactive_labels">
+		<text class="label small" transform="translate(605.05 246.7)">151</text>
+		<text class="label small" transform="translate(462.17 246.7)">153</text>
+		<text class="label small" transform="translate(412.8 246.7)">153a</text>
+		<text class="label small" transform="translate(347.26 246.7)">154</text>
+		<text class="label small" transform="translate(274.45 246.7)">155</text>
+		<text class="label small" transform="translate(219.01 246.7)">1<tspan class="cls-8" x="4.93" y="0">5</tspan><tspan class="cls-9" x="11.51" y="0">6</tspan></text>
+		<text class="label small" transform="translate(462.58 367.9)">118</text>
+		<text class="label small" transform="translate(580.58 367.9)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">20</tspan></text>
+		<text class="label small" transform="translate(217.65 512.73)">116</text>
+		<text class="label small" transform="translate(159.86 498.82)">115</text>
+		<text class="label small" transform="translate(14.5 498.82)">113</text>
+		<text class="label small" transform="translate(14.3 376.89)">157</text>
+		<text class="label small" transform="translate(1075.69 246.7)">148</text>
+		<text class="label small" transform="translate(1263.13 367.9)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">23</tspan></text>
+		<text class="label small" transform="translate(1366.73 512.73)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">24</tspan></text>
+		<text class="label small" transform="translate(1216.14 246.7)">146</text>
+		<text class="label small" transform="translate(1310.44 246.7)">1<tspan class="cls-8" x="4.92" y="0">4</tspan><tspan class="cls-10" x="12.06" y="0">5</tspan></text>
+		<text class="label small" transform="translate(1366.75 246.7)">144</text>
+		<text class="label small" transform="translate(1616.19 376.89)">143</text>
+		<text class="label small" transform="translate(1616.04 495.03)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">28</tspan></text>
+		<text class="label small" transform="translate(1569.68 495.03)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">27</tspan></text>
+		<text class="label small" transform="translate(1520.42 495.03)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">26</tspan></text>
+		<text class="label small" transform="translate(1449.5 495.03)"><tspan class="cls-8">1</tspan><tspan x="5.51" y="0">25</tspan></text>
+	</g>
+	<g id="icons">
+		<g id="start-2" data-name="start" transform="translate(0, -10)">
+			<path fill="#E4032C" class="marker" d="M780.62,257.69a20.15,20.15,0,1,1,37.09,11.05q-7.49,11.67-15,23.36c-1.33,2.11-2.63,2.1-4,0l-14.72-23A20.52,20.52,0,0,1,780.62,257.69Z"/>
+			<path fill="#ffffff" class="cls-11" d="M794.85,261.74l.17.15h0l6.21,5.57,6.29-5.66.38-.35h0a7.48,7.48,0,0,0,.06-10.75l-6.74-6.08-6.36,5.71a7.51,7.51,0,0,0,0,11.42Zm12.41-3.88a5.62,5.62,0,0,1-1.53,2.22h0l-4.52,4.06-1.79-1.6,8.11-7.28A5.23,5.23,0,0,1,807.26,257.86ZM805.73,252a5.94,5.94,0,0,1,.8.87h0l-8.93,8-.73-.66,0,0-.14-.11a5.6,5.6,0,0,1-.8-.89l8.93-8Zm-10.42,1.86A5.57,5.57,0,0,1,796.7,252l4.51-4,1.77,1.59-8.1,7.27a6.33,6.33,0,0,1,0-.76A5.21,5.21,0,0,1,795.31,253.84Zm14.83,7.34H810a7.67,7.67,0,0,1-2,3.54h0l-.38.35-6.29,5.67-6.21-5.57-.17-.15a7.85,7.85,0,0,1-2.39-3.85h-.1a7.3,7.3,0,0,0,.26,3.85,8,8,0,0,0,2.23,3.3l.17.15,6.21,5.57,6.29-5.66L808,268h0a7.81,7.81,0,0,0,2-3.2A7.29,7.29,0,0,0,810.14,261.18Z"/>
+		</g>
+		<circle id="start_point" class="marker" cx="800.77" cy="298.64" r="8.83" fill="#E4032C"/>
+		<path class="icon" d="M133,385.74v-5.21a1.73,1.73,0,0,1,1.54-1.89,1.53,1.53,0,0,1,.37,0h5.25v-5.09c0-1.54.62-2,2-2h5.12v-5.29a1.61,1.61,0,0,1,1.42-1.78h7.57a1.77,1.77,0,0,1,0,3.52h-5.38v5.19a1.72,1.72,0,0,1-1.53,1.9,1.28,1.28,0,0,1-.39,0h-5.18v5.11c0,1.36-.62,2-2,2h-5.12v5.3a1.61,1.61,0,0,1-1.42,1.77h-7.58a1.61,1.61,0,0,1-1.66-1.46,1.67,1.67,0,0,1,1.15-2,3.12,3.12,0,0,1,.86-.11h5Z"/>
+		<path class="icon" d="M885.79,177.4v-5.21a1.72,1.72,0,0,1,1.52-1.89,2.41,2.41,0,0,1,.38,0h5.2v-5.09c0-1.37.62-2,2-2H900V158a1.61,1.61,0,0,1,1.42-1.78H909a1.77,1.77,0,0,1,0,3.53H903.6v5.19a1.71,1.71,0,0,1-1.53,1.9h-5.56v5.1c0,1.36-.63,2-2,2h-5.2v5.29a1.61,1.61,0,0,1-1.42,1.78h-7.59a1.64,1.64,0,0,1-1.67-1.47,1.69,1.69,0,0,1,1.16-2,3.11,3.11,0,0,1,.86-.1h5.13Z"/>
+		<path class="icon" d="M696.43,177.4v-5.21A1.72,1.72,0,0,1,698,170.3a2.28,2.28,0,0,1,.37,0h5.25v-5.09c0-1.53.62-2,2-2h5.12V158a1.6,1.6,0,0,1,1.42-1.78h7.57a1.77,1.77,0,0,1,0,3.53H714.3v5.19a1.72,1.72,0,0,1-1.53,1.9h-5.56v5.1c0,1.36-.63,2-2,2H700.1v5.29a1.61,1.61,0,0,1-1.42,1.78H691.1a1.61,1.61,0,0,1-1.66-1.47,1.69,1.69,0,0,1,1.15-2,3.14,3.14,0,0,1,.87-.1h5Z"/>
+		<path class="icon" d="M1449.46,382v-5.21a1.71,1.71,0,0,1,1.51-1.88,1.27,1.27,0,0,1,.39,0h5.19v-5.09c0-1.38.63-2,2-2h5.11v-5.29a1.61,1.61,0,0,1,1.42-1.78h7.58a1.77,1.77,0,0,1,0,3.52h-5.38v5.19a1.71,1.71,0,0,1-1.53,1.9,1.15,1.15,0,0,1-.37,0h-5.19v5.11c0,1.36-.63,2-2,2H1453v5.29a1.62,1.62,0,0,1-1.42,1.78H1444a1.62,1.62,0,0,1-1.67-1.46,1.68,1.68,0,0,1,1.16-2,3.12,3.12,0,0,1,.86-.11h5.13Z"/>
+		<path class="infrastructure-icon" d="M1124.6,229.68c0-.6,0-1.17,0-1.73a6.4,6.4,0,0,1,.07-.88,5.2,5.2,0,0,1,5.22-4.33h8a2.88,2.88,0,0,0,2.44-1.26,3,3,0,0,0,.52-1.83c0-.62,0-1.23,0-1.85H1139c0,.7,0,1.41,0,2.12a1.07,1.07,0,0,1-.85,1,2,2,0,0,1-.49.05c-2.58,0-5.16,0-7.75,0a6.64,6.64,0,0,0-1.66.17c-4,1-5.91,4.38-5.41,8.53Zm5.28-4.92a2.8,2.8,0,0,0-2.87,2.15,19.44,19.44,0,0,0-.17,2.77h1.82v-1.82a1.17,1.17,0,0,1,1.31-1.33h7.86a7,7,0,0,0,6.58-4.47,10.59,10.59,0,0,0,.44-4.26h-1.76c0,.62,0,1.24,0,1.86a5.73,5.73,0,0,1-.2,1.36,5.16,5.16,0,0,1-5,3.74Zm13.19,9.33a9.25,9.25,0,0,0-1.58-.09h-1.7v-2h-20v2.38c0,1.52,0,3.05.07,4.56a9.47,9.47,0,0,0,3.09,6.32c.33.31.69.59,1.08.92h-4.21v1.75h20v-1.76h-4.19l.07-.09a10.35,10.35,0,0,0,2.12-2.06.43.43,0,0,1,.3-.13c.63,0,1.25,0,1.88,0a4.79,4.79,0,0,0,4.42-3.11,28.31,28.31,0,0,0,.88-3.28s0-.06,0-.08A2.81,2.81,0,0,0,1143.07,234.09Zm-5,3.84a8.24,8.24,0,1,1-16.47,0c0-1.31,0-2.63,0-3.94a2.54,2.54,0,0,1,0-.26H1138v.29C1138,235.34,1138,236.64,1138,237.93Zm5.47-.71c-.2.85-.41,1.7-.64,2.54a3.14,3.14,0,0,1-3.1,2.36h-.87c1-2,.94-4.17.9-6.3l.2,0h2.38A1.09,1.09,0,0,1,1143.49,237.22Z"/>
+		<path class="infrastructure-icon" d="M1049.19,234.62A8.5,8.5,0,0,0,1047,229a8.94,8.94,0,0,0-4.28-2.76,3,3,0,0,0-.15-3.22,5.08,5.08,0,0,0,2.53-5.21h-13.87a5.11,5.11,0,0,0,2.56,5.22,3.1,3.1,0,0,0-.55,1.58,3,3,0,0,0,.4,1.63l-.28.09a9,9,0,0,0-6.2,8.27c0,2.33,0,4.65,0,7q0,3.18,0,6.36h22C1049.2,243.49,1049.22,239.05,1049.19,234.62Zm-15.94-14.7a3.85,3.85,0,0,1-.13-.37h10.13a3.14,3.14,0,0,1-2.25,2.17,3.7,3.7,0,0,1-.87.11c-1.3,0-2.6,0-3.89,0A3.15,3.15,0,0,1,1033.25,219.92Zm8.1,4.81a1.13,1.13,0,0,1-1.19,1.15c-.83,0-1.67,0-2.5,0-.5,0-1,0-1.5,0a1.13,1.13,0,0,1-1.1-.86,1.12,1.12,0,0,1,.54-1.26,1.61,1.61,0,0,1,.61-.15c.66,0,1.32,0,2,0h1.94A1.14,1.14,0,0,1,1041.35,224.73Zm6.08,21.41h-18.5v-.31c0-3.64,0-7.28,0-10.92a7,7,0,0,1,4.3-6.63,6.38,6.38,0,0,1,2.79-.61h4.26a7.17,7.17,0,0,1,7,6,7.1,7.1,0,0,1,.11,1.22v11.26Zm-6.23-13.33a5,5,0,0,0-2-.39h-3.74v7.37h-1.22v1.66h1.22v1.26h1.69v-1.26H1041v-1.66h-3.92v-.92h2a5,5,0,0,0,2-.39,2.93,2.93,0,0,0,1.34-1.12,3.13,3.13,0,0,0,.47-1.71,3.07,3.07,0,0,0-.47-1.73A3,3,0,0,0,1041.2,232.81Zm-.47,4.17a2.58,2.58,0,0,1-1.67.47h-2v-3.6h2a2.56,2.56,0,0,1,1.67.46,1.85,1.85,0,0,1,0,2.67Z"/>
+		<path class="infrastructure-icon" d="M1524.22,358a2.28,2.28,0,0,0,1.7.38,2.22,2.22,0,0,0,1.28-.65,2.27,2.27,0,0,0,.64-1.29,2.31,2.31,0,0,0-.26-1.41,2.27,2.27,0,0,0-1.06-1,4.41,4.41,0,0,0-.64-.23l-.64,0h-.11a2.32,2.32,0,0,0-1.47.94,2.29,2.29,0,0,0,.56,3.19Zm.81-2.36a.71.71,0,0,1,.53-.22.73.73,0,0,1,.43.13.78.78,0,0,1,.28.34.74.74,0,0,1,0,.44.77.77,0,0,1-.6.6.83.83,0,0,1-.44-.05.74.74,0,0,1-.34-.29.7.7,0,0,1-.13-.42A.8.8,0,0,1,1525,355.62Zm8.84,2.13a2.28,2.28,0,0,0,3.34-.15,2.19,2.19,0,0,0,.52-1.12,2.24,2.24,0,0,0-.23-1.44,2.28,2.28,0,0,0-1.06-1,4.88,4.88,0,0,0-.64-.23l-.65,0h-.1a2.33,2.33,0,0,0-1.11.55,2.29,2.29,0,0,0-.66,1,2.18,2.18,0,0,0,0,1.24A2.23,2.23,0,0,0,1533.87,357.75Zm.9-1.9a.82.82,0,0,1,.16-.25.85.85,0,0,1,.25-.17.87.87,0,0,1,.58,0,.74.74,0,0,1,.25.17.67.67,0,0,1,.16.25.63.63,0,0,1,0,.3.58.58,0,0,1,0,.29.67.67,0,0,1-.16.25.74.74,0,0,1-.25.17.73.73,0,0,1-.58,0,.81.81,0,0,1-.24-.17.85.85,0,0,1-.17-.25.93.93,0,0,1,0-.29A1,1,0,0,1,1534.77,355.85Zm-1.59,17.48h1.54v-3.91h1.51v3.91h1.55v-3.92H1540a7.21,7.21,0,0,0,0-.93c-.09-.71-.22-1.39-.33-2.06-.31-1.79-.62-3.58-.91-5.37a2.25,2.25,0,0,0-.65-1.28,2.21,2.21,0,0,0-1.3-.62,16.37,16.37,0,0,0-2.62,0,2,2,0,0,0-2,1.67c-.17.65-.26,1.32-.38,2L1531,368a7.16,7.16,0,0,0-.08,1.39h2.29Zm-.65-5.43c.06-.38.11-.7.17-1,.26-1.52.53-3,.79-4.53l.18-1a.78.78,0,0,1,.25-.48.8.8,0,0,1,.51-.19h2.06a.78.78,0,0,1,.51.19.73.73,0,0,1,.25.48c.31,1.81.61,3.62.92,5.43.06.38.12.75.19,1.13Zm-9.26,5.41h1.52v-7h-1.53V361.5a.82.82,0,0,1,0-.35.65.65,0,0,1,.18-.3.8.8,0,0,1,.3-.19,1.06,1.06,0,0,1,.35,0h2.8a.9.9,0,0,1,.36.05.81.81,0,0,1,.49.49.9.9,0,0,1,0,.36v4.76h-1.5v7h1.53v-5.47h1.51v-6.39a2.3,2.3,0,0,0-.18-.9,2.37,2.37,0,0,0-.53-.76,2.3,2.3,0,0,0-.77-.49,2.35,2.35,0,0,0-.91-.15h-2.91a2.6,2.6,0,0,0-.56.06,2.32,2.32,0,0,0-1.27.8,2.35,2.35,0,0,0-.49,1.42v6.36h1.52Z"/>
+		<path class="infrastructure-icon" d="M64.69,358a2.3,2.3,0,0,0,3.62-1.56,2.24,2.24,0,0,0-.26-1.41A2.27,2.27,0,0,0,67,354a4.41,4.41,0,0,0-.64-.23l-.64,0H65.6a2.34,2.34,0,0,0-1.47.94,2.29,2.29,0,0,0,.56,3.19Zm.81-2.36a.73.73,0,0,1,.54-.22.77.77,0,0,1,.7.47.74.74,0,0,1,0,.44.77.77,0,0,1-.6.6.83.83,0,0,1-.44-.05.74.74,0,0,1-.34-.29.77.77,0,0,1-.13-.42A.8.8,0,0,1,65.5,355.62Zm8.84,2.13a2.32,2.32,0,0,0,2.32.54,2.32,2.32,0,0,0,1-.69,2.36,2.36,0,0,0,.52-1.12A2.31,2.31,0,0,0,78,355a2.28,2.28,0,0,0-1.06-1,4.88,4.88,0,0,0-.64-.23l-.65,0h-.1a2.33,2.33,0,0,0-1.11.55,2.31,2.31,0,0,0-.69,2.28A2.23,2.23,0,0,0,74.34,357.75Zm.9-1.9a.82.82,0,0,1,.16-.25.85.85,0,0,1,.25-.17.93.93,0,0,1,.29-.05,1,1,0,0,1,.3.05.81.81,0,0,1,.24.17.67.67,0,0,1,.16.25.63.63,0,0,1,0,.3.58.58,0,0,1,0,.29.67.67,0,0,1-.16.25.72.72,0,0,1-.54.23.72.72,0,0,1-.29-.06.81.81,0,0,1-.24-.17.67.67,0,0,1-.16-.25.72.72,0,0,1-.06-.29A1,1,0,0,1,75.24,355.85Zm4.91,10.57c-.31-1.79-.62-3.58-.91-5.37a2.14,2.14,0,0,0-.65-1.28,2.21,2.21,0,0,0-1.3-.62,16.37,16.37,0,0,0-2.62,0,2,2,0,0,0-2,1.67c-.17.65-.25,1.32-.38,2-.3,1.73-.59,3.47-.9,5.21a7.16,7.16,0,0,0-.08,1.39h2.29v3.92h1.54v-3.91H76.7v3.91h1.55v-3.92h2.23a7.21,7.21,0,0,0,0-.93C80.39,367.77,80.26,367.09,80.15,366.42ZM73,367.9c.06-.38.11-.7.18-1,.25-1.52.52-3,.78-4.53l.18-1a.85.85,0,0,1,.26-.48.78.78,0,0,1,.5-.19H77a.78.78,0,0,1,.51.19.73.73,0,0,1,.25.48c.31,1.81.61,3.62.92,5.43.06.38.12.75.19,1.13Zm-9.26,5.43h1.52v-7.06H63.73V361.5a.82.82,0,0,1,0-.35.75.75,0,0,1,.18-.3.77.77,0,0,1,.31-.19,1,1,0,0,1,.35,0H67.4a.9.9,0,0,1,.36.05.81.81,0,0,1,.49.49.9.9,0,0,1,0,.36v4.76H66.8v7h1.53v-5.47h1.51v-6.39a2.3,2.3,0,0,0-.18-.9,2.34,2.34,0,0,0-.52-.76,2.45,2.45,0,0,0-.78-.49,2.33,2.33,0,0,0-.9-.15H64.54a2.6,2.6,0,0,0-.56.06,2.29,2.29,0,0,0-1.76,2.22v6.36h1.52Z"/>
+	</g>
+</svg>
+
+				</div>
+				<div class="floor" id="floor-2">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1646.32 535.44">
+	<!-- <defs>
+		<style>
+			.corridor-stairs {
+				fill: #f0efef;
+			}
+
+			.inactive-room {
+				fill: #cccccb;
+			}
+
+			.active-room {
+				fill: #c6e0a6;
+			}
+
+			.infrostructure {
+				fill: #026d7d;
+			}
+
+			.cls-1 {
+				fill: none;
+				stroke: #21832d;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-width: 0.97px;
+			}
+
+			.cls-2 {
+				font-size: 20.91px;
+			}
+
+			.cls-2, .icon {
+				fill: #7d7d7d;
+			}
+
+			.cls-2, .cls-5, .cls-6 {
+				font-family: BlissPro, Bliss Pro;
+			}
+
+			.cls-3 {
+				letter-spacing: 0.05em;
+			}
+
+			.cls-4 {
+				font-size: 27.81px;
+				font-family: BlissPro-Heavy, Bliss Pro;
+				font-weight: 800;
+			}
+
+			.cls-4, .infrostructure-icon {
+				fill: #fff;
+			}
+
+			.cls-5 {
+				font-size: 18.28px;
+			}
+
+			.cls-5, .cls-6, .cls-9 {
+				fill: #7e7e7e;
+			}
+
+			.cls-6 {
+				font-size: 12.33px;
+			}
+
+			.cls-7 {
+				letter-spacing: 0.05em;
+			}
+
+			.cls-8 {
+				letter-spacing: 0.05em;
+			}
+
+			.marker-2 {
+				fill: #e4032c;
+			}
+		</style>
+	</defs> -->
+	<g id="corridors">
+		<path class="corridor-stairs" d="M1642.84,431.82h-76.1a3.66,3.66,0,0,1-3.66-3.67V118.87a3.66,3.66,0,0,0-3.66-3.67H1531a3.66,3.66,0,0,0-3.66,3.67V428.15a3.67,3.67,0,0,1-3.67,3.67H1139.29a3.66,3.66,0,0,1-3.66-3.67V325.86a3.66,3.66,0,0,0-3.66-3.67H766.35a3.66,3.66,0,0,1-3.67-3.66V267.26a3.67,3.67,0,0,0-3.66-3.67H688.73a3.66,3.66,0,0,1-3.67-3.66V195.27a3.66,3.66,0,0,0-3.66-3.66H574.71a3.66,3.66,0,0,0-3.66,3.66v64.66a3.66,3.66,0,0,1-3.67,3.66H498.11a3.67,3.67,0,0,0-3.67,3.67v51.27a3.66,3.66,0,0,1-3.66,3.66H125.16a3.66,3.66,0,0,0-3.66,3.67V428.15a3.67,3.67,0,0,1-3.67,3.67H3.85a3.66,3.66,0,0,0-3.67,3.66v21.65a3.66,3.66,0,0,0,3.67,3.66h114a3.66,3.66,0,0,1,3.67,3.66v13.68a3.66,3.66,0,0,0,3.66,3.66h46.22a3.67,3.67,0,0,0,3.67-3.66V357.19a3.66,3.66,0,0,1,3.66-3.66h899.71a3.66,3.66,0,0,1,3.66,3.66V478.13a3.66,3.66,0,0,0,3.67,3.66H1132a3.66,3.66,0,0,0,3.66-3.66V464.45a3.66,3.66,0,0,1,3.66-3.66h503.55a3.66,3.66,0,0,0,3.67-3.66V435.48A3.66,3.66,0,0,0,1642.84,431.82Z" transform="translate(-0.18 0.03)"/>
+		<rect class="corridor-stairs" x="1456.93" y="115.23" width="66.96" height="34.4" rx="3.66"/>
+		<rect class="corridor-stairs" x="688.1" y="191.64" width="37.44" height="68.77" rx="3.66"/>
+		<rect class="corridor-stairs" x="529.64" y="191.64" width="38.01" height="68.77" rx="3.66"/>
+		<rect class="corridor-stairs" x="1138.67" y="371.26" width="77.82" height="57.36" rx="3.66"/>
+		<rect class="corridor-stairs" x="41.45" y="371.26" width="76.64" height="57.36" rx="3.66"/>
+	</g>
+	<g id="inactiveRooms">
+		<path class="inactive-room" d="M759,356.75H652.62a3.66,3.66,0,0,0-3.66,3.66v64.52a3.66,3.66,0,0,0,3.66,3.67H759a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,759,356.75Z" transform="translate(-0.18 0.03)"/>
+		<path class="inactive-room" d="M642.07,356.75H535a3.66,3.66,0,0,0-3.66,3.66v64.52A3.66,3.66,0,0,0,535,428.6h107a3.67,3.67,0,0,0,3.67-3.67V360.41A3.66,3.66,0,0,0,642.07,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="494.26" y="356.77" width="33.71" height="71.85" rx="3.66"/>
+		<path class="inactive-room" d="M840.32,356.75H769.57a3.66,3.66,0,0,0-3.67,3.66v64.52a3.67,3.67,0,0,0,3.67,3.67h70.75a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,840.32,356.75Z" transform="translate(-0.18 0.03)"/>
+		<path class="inactive-room" d="M959.65,356.75H850.87a3.66,3.66,0,0,0-3.67,3.66v64.52a3.67,3.67,0,0,0,3.67,3.67H959.65a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,959.65,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" y="464.03" width="78.01" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="81.23" y="464.03" width="36.86" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="966.35" y="356.77" width="36.71" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="121.31" y="485.03" width="53.55" height="50.41" rx="3.66"/>
+		<path class="inactive-room" d="M487.56,356.75H337.94a3.66,3.66,0,0,0-3.66,3.66v64.52a3.66,3.66,0,0,0,3.66,3.67H487.56a3.66,3.66,0,0,0,3.66-3.67V360.41A3.66,3.66,0,0,0,487.56,356.75Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="294.33" y="356.77" width="36.54" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="371.26" width="66.96" height="57.36" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="344.37" width="66.96" height="23.67" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="305.72" width="66.96" height="35.43" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="115.23" width="80.21" height="69.7" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="188.15" width="80.21" height="76.24" rx="3.66"/>
+		<rect class="inactive-room" x="1006.28" y="356.77" width="72.4" height="71.85" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="152.84" width="66.96" height="34.36" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="229.09" width="66.96" height="34.09" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="190.43" width="66.96" height="35.44" rx="3.66"/>
+		<rect class="inactive-room" x="1456.93" y="266.39" width="66.96" height="36.11" rx="3.66"/>
+		<rect class="inactive-room" x="1218.61" y="464.03" width="38.15" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1259.98" y="464.03" width="35.63" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1081.9" y="485.03" width="53.55" height="50.41" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="267.61" width="80.21" height="74.24" rx="3.66"/>
+		<rect class="inactive-room" x="1609.31" y="464.03" width="37.01" height="71.41" rx="3.66"/>
+		<rect class="inactive-room" x="1566.12" y="345.06" width="80.21" height="83.56" rx="3.66"/>
+		<rect class="inactive-room" x="1004.82" y="263.62" width="36.76" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="848.63" y="263.62" width="33.82" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="885.67" y="263.62" width="36.72" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="965.5" y="263.62" width="36.1" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="925.61" y="263.62" width="36.67" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="807.96" y="263.62" width="37.44" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="765.72" y="263.62" width="39.03" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1044.8" y="263.62" width="33.88" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1081.9" y="263.62" width="53.55" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="1259.98" y="371.26" width="37.52" height="57.36" rx="3.66"/>
+		<rect class="inactive-room" x="178.08" y="263.62" width="35.49" height="55.38" rx="3.66"/>
+		<rect class="inactive-room" x="334.37" y="263.62" width="36.72" height="55.38" rx="3.66"/>
+		<path class="inactive-room" d="M327.67,263.59h-107a3.67,3.67,0,0,0-3.66,3.67v48.05a3.66,3.66,0,0,0,3.66,3.66h107a3.66,3.66,0,0,0,3.67-3.66V267.26A3.67,3.67,0,0,0,327.67,263.59Z" transform="translate(-0.18 0.03)"/>
+		<rect class="inactive-room" x="374.31" y="263.62" width="32.1" height="55.38" rx="3.66"/>
+		<path class="inactive-room" d="M522.14,0V184.73a3.66,3.66,0,0,0,3.67,3.66H730.3a3.66,3.66,0,0,0,3.67-3.66V0Z" transform="translate(-0.18 0.03)"/>
+	</g>
+	<g id="activeRooms">
+		<rect id="r243" class="active-room" x="1300.72" y="371.26" width="74.96" height="57.36" rx="3.66"/>
+		<rect id="r256" class="active-room" x="121.31" y="263.62" width="53.55" height="55.38" rx="3.66"/>
+		<rect id="r213" class="active-room" x="178.08" y="356.77" width="113.03" height="71.85" rx="3.66"/>
+		<rect id="r225" class="active-room" x="1138.67" y="464.03" width="76.72" height="71.41" rx="3.66"/>
+		<rect id="r228" class="active-room" x="1298.83" y="464.03" width="155.02" height="71.41" rx="3.66"/>
+		<rect id="r229" class="active-room" x="1457.08" y="464.03" width="75.91" height="71.41" rx="3.66"/>
+		<rect id="r230" class="active-room" x="1536.21" y="464.03" width="69.89" height="71.41" rx="3.66"/>
+		<rect id="r253" class="active-room" x="409.63" y="263.62" width="81.41" height="55.38" rx="3.66"/>
+		<rect id="r242" class="active-room" x="1378.9" y="371.26" width="74.81" height="57.36" rx="3.66"/>
+		<rect id="rrestroom2m" class="infrastructure" x="1219.7" y="371.26" width="37.06" height="57.36" rx="3.66"/>
+		<rect id="rrestroom2f" class="infrastructure" y="371.26" width="38.24" height="57.36" rx="3.66"/>
+	</g>
+	<g id="paths">
+		<path id="p225" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h48.72a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p228" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h245a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p229" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h364.36a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p230" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h440.47a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
+		<path id="p243" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h207.53a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="p242" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h285.63a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="p253" class="path" d="M548.74,337.14H461.52a11,11,0,0,1-11-11V319" transform="translate(-0.18 0.03)"/>
+		<path id="p256" class="path" d="M548.74,337.14H159.27a11,11,0,0,1-11-11V319" transform="translate(-0.18 0.03)"/>
+		<path id="p213" class="path" d="M548.74,337.14H253.26a11,11,0,0,0-11,11v8.61" transform="translate(-0.18 0.03)"/>
+		<path id="prestroom2m" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h107a11,11,0,0,0,11-11V428.6" transform="translate(-0.18 0.03)"/>
+		<path id="prestroom2f" class="path" d="M548.74,337.14H159.27a11,11,0,0,0-11,11v87.13a11,11,0,0,1-11,11H28.52a11,11,0,0,1-11-11V428.6" transform="translate(-0.18 0.03)"/>
+	</g>
+	<g id="labels">
+		<text id="l213" class="label" transform="translate(219.21 398.02)">213</text>
+		<text id="l253" class="label" transform="translate(434.79 299.77)">253</text>
+		<text id="l225" class="label" transform="translate(1161.42 506.08)">225</text>
+		<text id="l227а" class="label" transform="translate(1316.43 506.08)">227а</text>
+		<text id="l228" class="label" transform="translate(1397.2 508.31)">228</text>
+		<text id="l229" class="label" transform="translate(1480.44 508.31)">229</text>
+		<text id="l230" class="label" transform="translate(1550.67 508.31)">230</text>
+		<text id="l242" class="label" transform="translate(1399.98 407.82)">242</text>
+		<text id="l243" class="label" transform="translate(1320.33 407.82)">243</text>
+		<text id="l256" class="label" transform="translate(132.16 298.52)">256</text>
+		<text id="lrestroom2f" class="restroom-label" transform="translate(5.95 422.91)">Ж</text>
+		<text id="lrestroom2m" class="restroom-label" transform="translate(1226.54 422.91)">М</text>
+	</g>
+	<g id="inactive_labels">
+		<text class="label small" transform="translate(300.94 398.02)">214</text>
+		<text class="label small" transform="translate(399.32 398.02)">215</text>
+		<text class="label small" transform="translate(498.19 398.02)">217</text>
+		<text class="label small" transform="translate(575.59 398.02)">218</text>
+		<text class="label small" transform="translate(695.39 398.02)">219</text>
+		<text class="label small" transform="translate(790.23 398.02)">220</text>
+		<text class="label small" transform="translate(894.48 398.02)">221</text>
+		<text class="label small" transform="translate(970.58 398.02)">222</text>
+		<text class="label small" transform="translate(1027.27 398.02)">223</text>
+		<text class="label small" transform="translate(771.13 296.41)">252</text>
+		<text class="label small" transform="translate(813.44 296.41)">251</text>
+		<text class="label small" transform="translate(852.72 296.41)">250</text>
+		<text class="label small" transform="translate(889.29 296.41)">249</text>
+		<text class="label small" transform="translate(930.13 297.69)">248</text>
+		<text class="label small" transform="translate(971.71 297.69)">248а</text>
+		<text class="label small" transform="translate(1007.59 296.41)">247</text>
+		<text class="label small" transform="translate(1223.85 506.08)">226</text>
+		<text class="label small" transform="translate(1264.96 506.08)">227</text>
+		<text class="label small" transform="translate(1616.81 508.31)">230а</text>
+		<text class="label small" transform="translate(1476.74 407.82)">241</text>
+		<text class="label small" transform="translate(1592.77 394.97)">231</text>
+		<text class="label small" transform="translate(1591.91 310.48)">232</text>
+		<text class="label small" transform="translate(1476.12 175.5)">235</text>
+		<text class="label small" transform="translate(1475.83 213.34)">236</text>
+		<text class="label small" transform="translate(1476.44 251.94)">237</text>
+		<text class="label small" transform="translate(1475.72 289.45)">238</text>
+		<text class="label small" transform="translate(1475.89 328.78)">239</text>
+		<text class="label small" transform="translate(1475.49 360.83)">240</text>
+		<text class="label small" transform="translate(1594.81 229.09)">233</text>
+		<text class="label small" transform="translate(338.18 299.77)">254</text>
+		<text class="label small" transform="translate(263.11 299.77)">255</text>
+		<text class="label small" transform="translate(177.39 299.77)">255а</text>
+		<text class="label small" transform="translate(377.78 299.77)">253а</text>
+		<text class="label small" transform="translate(27.8 506.08)">210</text>
+		<text class="label small" transform="translate(87.26 506.08)">211</text>
+		<text class="label small" transform="translate(1046.94 296.41)">246</text>
+		<text class="label small" transform="translate(1263.8 406.78)">244</text>
+		<text class="label small" transform="translate(1094.14 516.73)">224</text>
+		<text class="label small" transform="translate(1594.13 154.89)">234</text>
+		<text class="label small" transform="translate(134.37 516.73)">212</text>
+		<text class="label small" transform="translate(1093.7 296.41)">245</text>
+	</g>
+	<g id="icons">
+		<path class="icon" d="M699.5,233.39v-1c0-1.09,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33V223.2c0-1.14.52-1.65,1.66-1.65h4.27v-4.41a1.35,1.35,0,0,1,1.41-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.71,0-4.06,0h-.44v.76c0,1.2,0,2.39,0,3.58a1.44,1.44,0,0,1-1.59,1.59H708.4v.41c0,1.28,0,2.56,0,3.85,0,1.13-.52,1.64-1.66,1.64h-4.26v4.42a1.36,1.36,0,0,1-1.42,1.5c-2,0-4,0-6.07,0a1.36,1.36,0,0,1-1.39-1.24,1.42,1.42,0,0,1,1-1.64,2.89,2.89,0,0,1,.72-.08h4.21Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M1169.8,407.31V403a1.45,1.45,0,0,1,1.6-1.59h4.33V401c0-1.28,0-2.56,0-3.85,0-1.13.52-1.64,1.66-1.64h4.27v-.4c0-1.34,0-2.68,0-4a1.34,1.34,0,0,1,1.41-1.5q3,0,6.07,0a1.33,1.33,0,0,1,1.39,1.47,1.35,1.35,0,0,1-1.41,1.47c-1.35,0-2.7,0-4,0h-.44v4.34a1.45,1.45,0,0,1-1.6,1.59h-4.33v4.26c0,1.14-.52,1.65-1.66,1.65h-4.27v4.42a1.35,1.35,0,0,1-1.41,1.49c-2,0-4,0-6.07,0a1.33,1.33,0,0,1-1.39-1.24,1.4,1.4,0,0,1,1-1.63,2.49,2.49,0,0,1,.72-.08h4.22Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M1483.19,139.8v-1.05c0-1.1,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33v-.41c0-1.29,0-2.57,0-3.85s.52-1.65,1.65-1.65H1495v-4.42a1.35,1.35,0,0,1,1.42-1.49q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.7,0-4.06,0H1498v.76c0,1.19,0,2.38,0,3.58a1.44,1.44,0,0,1-1.59,1.58h-4.33v4.27a1.44,1.44,0,0,1-1.66,1.64h-4.27v4.42a1.36,1.36,0,0,1-1.42,1.5q-3,0-6.07,0a1.35,1.35,0,0,1-1.39-1.23,1.42,1.42,0,0,1,1-1.64,2.49,2.49,0,0,1,.72-.08c1.27,0,2.54,0,3.81,0Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M541.33,233.39v-1c0-1.09,0-2.19,0-3.29a1.44,1.44,0,0,1,1.59-1.59h4.33v-.41c0-1.28,0-2.57,0-3.85s.52-1.65,1.65-1.65h4.27v-4.41a1.36,1.36,0,0,1,1.42-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.7,0-4.06,0h-.43v.76c0,1.2,0,2.39,0,3.58a1.44,1.44,0,0,1-1.59,1.59h-4.33v4.26a1.44,1.44,0,0,1-1.66,1.64H544.3v4.42a1.35,1.35,0,0,1-1.42,1.5q-3,0-6.07,0a1.34,1.34,0,0,1-1.38-1.24,1.41,1.41,0,0,1,1-1.64,2.89,2.89,0,0,1,.72-.08h4.22Z" transform="translate(-0.18 0.03)"/>
+		<path class="icon" d="M75.94,407.31v-1c0-1.1,0-2.2,0-3.3a1.44,1.44,0,0,1,1.59-1.59h4.33v-4.26c0-1.13.52-1.64,1.66-1.64H87.8v-4.42a1.35,1.35,0,0,1,1.41-1.5q3,0,6.07,0a1.47,1.47,0,0,1,0,2.94c-1.35,0-2.71,0-4.06,0h-.44v.77c0,1.19,0,2.38,0,3.57a1.44,1.44,0,0,1-1.59,1.59H84.85v.41c0,1.28,0,2.57,0,3.85s-.52,1.65-1.66,1.65H78.92v4.42a1.35,1.35,0,0,1-1.42,1.49c-2,0-4,0-6.07,0A1.35,1.35,0,0,1,70,409a1.41,1.41,0,0,1,1-1.63,2.49,2.49,0,0,1,.72-.08h4.21Z" transform="translate(-0.18 0.03)"/>
+		<path class="infrastructure-icon" d="M13.42,382.35a2.71,2.71,0,0,0,.71-5.14c-.24-.11-.51-.17-.76-.26H12.6l-.12.05a2.72,2.72,0,0,0,.94,5.35ZM13,378.76a.9.9,0,0,1,.89.92.89.89,0,1,1-1.78,0A.91.91,0,0,1,13,378.76Zm12.21,3.59a2.74,2.74,0,0,0,2.25-2.24,2.7,2.7,0,0,0-1.54-2.9c-.24-.11-.51-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,.94,5.35Zm-.44-3.59a.92.92,0,0,1,.9.92.9.9,0,1,1-.9-.92Zm5.38,15.58c-.1-.81-.25-1.61-.39-2.41q-.54-3.18-1.07-6.37a2.65,2.65,0,0,0-2.31-2.26,19.13,19.13,0,0,0-3.12,0,2.49,2.49,0,0,0-2.31,2c-.2.78-.31,1.58-.45,2.37-.36,2.06-.71,4.13-1.08,6.19a8.19,8.19,0,0,0-.08,1.65H22v4.65h1.83v-4.64h1.79v4.64h1.84v-4.65h2.65A8.46,8.46,0,0,0,30.13,394.34Zm-8.84-.69c.06-.4.13-.79.2-1.17l.93-5.39c.07-.41.15-.83.22-1.24a.9.9,0,0,1,.9-.79H26a.88.88,0,0,1,.9.79q.55,3.22,1.09,6.45c.08.45.15.89.23,1.35Zm-6.61-10.41c-1.16,0-2.31,0-3.47,0a3.05,3.05,0,0,0-.67.07,2.71,2.71,0,0,0-2.09,2.74q0,3.65,0,7.28a1.93,1.93,0,0,0,0,.23h1.8v6.54h1.81v-8.36H10.28v-.21c0-1.82,0-3.64,0-5.45a.92.92,0,0,1,1-1c1.11,0,2.22,0,3.33,0a1,1,0,0,1,1.06,1.06c0,1.8,0,3.59,0,5.39,0,.08,0,.16,0,.26H13.89v8.36h1.83v-6.56H17.5a.65.65,0,0,0,0-.11c0-2.49,0-5,0-7.49A2.73,2.73,0,0,0,14.68,383.24Z" transform="translate(-0.18 0.03)"/>
+		<path class="infrastructure-icon" d="M1232.53,382.35a2.71,2.71,0,0,0,.71-5.14c-.24-.11-.5-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,.94,5.35Zm-.43-3.59a.92.92,0,0,1,.89.92.9.9,0,1,1-1.79,0A.92.92,0,0,1,1232.1,378.76Zm12.21,3.59a2.71,2.71,0,0,0,.7-5.14c-.24-.11-.5-.17-.76-.26h-.77l-.12.05a2.72,2.72,0,0,0,1,5.35Zm-.44-3.59a.91.91,0,0,1,.89.92.89.89,0,1,1-.89-.92Zm5.38,15.58c-.11-.81-.26-1.61-.39-2.41-.36-2.12-.73-4.24-1.08-6.37a2.63,2.63,0,0,0-2.31-2.26,19.11,19.11,0,0,0-3.12,0,2.49,2.49,0,0,0-2.31,2c-.2.78-.3,1.58-.44,2.37-.37,2.06-.72,4.13-1.08,6.19a7.52,7.52,0,0,0-.08,1.65h2.7v4.65H1243v-4.64h1.79v4.64h1.83v-4.65h2.66A8.46,8.46,0,0,0,1249.25,394.34Zm-8.85-.69c.07-.4.13-.79.2-1.17.31-1.8.62-3.59.94-5.39.07-.41.14-.83.22-1.24a.9.9,0,0,1,.9-.79h2.42a.89.89,0,0,1,.9.79q.54,3.22,1.09,6.45c.07.45.15.89.23,1.35Zm-6.61-10.41c-1.15,0-2.31,0-3.46,0a3.05,3.05,0,0,0-.67.07,2.73,2.73,0,0,0-2.1,2.74v7.28c0,.07,0,.14,0,.23h1.81v6.54h1.81v-8.36h-1.8v-5.66a.92.92,0,0,1,1-1c1.11,0,2.22,0,3.33,0a1,1,0,0,1,1.06,1.06c0,1.8,0,3.59,0,5.39a2.44,2.44,0,0,1,0,.26H1233v8.36h1.82v-6.56h1.79a.49.49,0,0,0,0-.11c0-2.49,0-5,0-7.49A2.74,2.74,0,0,0,1233.79,383.24Z" transform="translate(-0.18 0.03)"/>
+		<circle class="marker" cx="706.73" cy="337.17" r="4.78"/>
+		<circle class="marker" cx="548.55" cy="337.17" r="4.78"/>
+	</g>
+</svg>
+
+				</div>
+			</div>
+			<div class="additional-navi">
+				<a href="" id="lang-switcher" data-en="ru" data-ru="en"></a>
+			</div>
+		</div>
+		<div class="col l3 navi-wrapper">
+
+			<div class="tab-content active" id="floor1">
+				<h2 data-ru="1 этаж" data-en="1st floor"></h2>
+				<div class="auditory waves-effect" data-id="library" data-room="1">
+	<div class="room-wrapper">
+		<div class="room">1</div>
+		<div class="suffix">Читаль&shy;ный зал</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Центр по приему заявлений от абитуриентов и оформлению договоров на платное обучение в режиме одного окна</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="114">
+	<div class="room-wrapper">
+		<div class="room">114</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет агрономии и экологии,</div><div class="name">Факультет агрохимии и защиты растений,</div><div class="name">Факультет плодоовощеводства и виноградарства</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="117">
+	<div class="room-wrapper">
+		<div class="room">117</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Центр по работе с Единым порталом государственных услуг</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="119">
+	<div class="room-wrapper">
+		<div class="room">119</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Консультационный центр по работе с иностранными абитуриентами</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="152">
+	<div class="room-wrapper">
+		<div class="room">152</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Архитектурно-строительный факультет,</div><div class="name">Факультет гидромелиорации</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="121">
+	<div class="room-wrapper">
+		<div class="room">121</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Центральная приёмная комиссия</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="122">
+	<div class="room-wrapper">
+		<div class="room">122</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Ответственный секретарь приёмной комиссии</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="150">
+	<div class="room-wrapper">
+		<div class="room">150</div>
+		<div class="suffix">Кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Асприрантура</div>		
+		
+	</div>
+</div>
+			</div>
+			<div class="tab-content" id="floor2">
+				<h2 data-ru="2 этаж" data-en="2nd floor"></h2>
+				<div class="auditory waves-effect" data-id="room" data-room="213">
+	<div class="room-wrapper">
+		<div class="room">213</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет ветеринарной медицины,</div><div class="name">Факультет зоотехнии,</div><div class="name">Факультет пищевых производств</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="253">
+	<div class="room-wrapper">
+		<div class="room">253</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Землеустроительный факультет,</div><div class="name">Факультет энергетики</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="256">
+	<div class="room-wrapper">
+		<div class="room">256</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет механизации</div><div class="name">Военный учебный центр</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="225">
+	<div class="room-wrapper">
+		<div class="room">225</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет прикладной информатики</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="228">
+	<div class="room-wrapper">
+		<div class="room">228</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Экономический факультет,</div><div class="name">Институт цифровой экономикии инноваций</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="229">
+	<div class="room-wrapper">
+		<div class="room">229</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет «Финансы и кредит»</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="230">
+	<div class="room-wrapper">
+		<div class="room">230</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Юридический факультет</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="242">
+	<div class="room-wrapper">
+		<div class="room">242</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Факультет управления</div>		
+		
+	</div>
+</div><div class="auditory waves-effect" data-id="room" data-room="243">
+	<div class="room-wrapper">
+		<div class="room">243</div>
+		<div class="suffix">кабинет</div>
+	</div>
+	<div class="names">
+		
+			<div class="name">Учетно-финансовый факультет</div>		
+		
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+	<script src="/js/master.js"></script>
+</body>
+</html>
