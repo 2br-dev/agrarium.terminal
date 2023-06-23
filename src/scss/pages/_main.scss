@@ -76,6 +76,10 @@ body{
 			box-sizing: border-box;
 			border-radius: 10px;
 			font-size: 20px;
+
+			@media(max-width: 2000px){
+				font-size: 17px;
+			}
 		}
 	}
 
@@ -103,9 +107,19 @@ body{
 			border-radius: 5px;
 			align-items: center;
 
+			@media(max-width: 2000px){
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
 			& .names{
 				font-size: 19.5px;
 				font-weight: 500;
+				
+				@media(max-width: 2000px){
+					font-size: 17px;
+					font-weight: 400;
+				}
 			}
 
 			& .room-wrapper{
@@ -115,6 +129,10 @@ body{
 
 				& .room{
 					font-size: 40px;
+
+					@media(max-width: 2000px){
+						font-size: 32px;
+					}
 				}
 
 				& .suffix{

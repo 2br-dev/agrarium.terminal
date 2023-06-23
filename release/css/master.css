@@ -4233,6 +4233,9 @@ body {
       box-sizing: border-box;
       border-radius: 10px;
       font-size: 20px; }
+      @media (max-width: 2000px) {
+        body .map-header .intro {
+          font-size: 17px; } }
   body .tab-content {
     display: none; }
     body .tab-content h2 {
@@ -4250,14 +4253,25 @@ body {
       background-color: #F3F3F3;
       border-radius: 5px;
       align-items: center; }
+      @media (max-width: 2000px) {
+        body .tab-content .auditory {
+          padding: 10px;
+          margin-bottom: 10px; } }
       body .tab-content .auditory .names {
         font-size: 19.5px;
         font-weight: 500; }
+        @media (max-width: 2000px) {
+          body .tab-content .auditory .names {
+            font-size: 17px;
+            font-weight: 400; } }
       body .tab-content .auditory .room-wrapper {
         color: #7D7D7D;
         margin-right: 20px; }
         body .tab-content .auditory .room-wrapper .room {
           font-size: 40px; }
+          @media (max-width: 2000px) {
+            body .tab-content .auditory .room-wrapper .room {
+              font-size: 32px; } }
         body .tab-content .auditory .room-wrapper .suffix {
           font-size: 18px; }
       body .tab-content .auditory.active {
