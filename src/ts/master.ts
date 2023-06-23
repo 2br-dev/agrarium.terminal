@@ -7,7 +7,7 @@ M.Sidenav.init(document.querySelectorAll('.sidenav'));
 const leftTransition = "left .4s cubic-bezier(.76,-0.48,.32,1.44) .07s, right .4s cubic-bezier(.76,-0.48,.32,1.44) .01s";
 const rightTransition = "left .4s cubic-bezier(.76,-0.48,.32,1.44) .01s, right .4s cubic-bezier(.76,-0.48,.32,1.44) .07s";
 
-let initialSecondsLeft = 30;
+let initialSecondsLeft = 120;
 let secondsLeft:number = initialSecondsLeft;
 let secondsModalTrigger = 15;
 let inactiveTimeout:NodeJS.Timeout;
