@@ -1379,6 +1379,9 @@
     overflow: hidden;
     position: relative;
     transform: translateZ(0); }
+    @media (max-width: 2000px) {
+      .map-wrapper .floor {
+        aspect-ratio: 2.8 / 1; } }
 
 .corridor-stairs, .infrastructure-icon, .infrastructure-label {
   fill: #f0efef; }
@@ -4224,6 +4227,9 @@ body {
     align-items: center;
     border-radius: 10px;
     padding: 40px; }
+    @media (max-width: 2000px) {
+      body .map-header {
+        padding: 10px; } }
     body .map-header h1 {
       font-size: 72px;
       color: #21832D;

@@ -64,7 +64,7 @@ function showRoute(e:JQuery.ClickEvent)
 			$(lid).addClass('active');
 
 			
-			let zoomLevel = 1.8;
+			let zoomLevel = 1.6;
 			let wrapperWidth = $(floor).innerWidth();
 			let wrapperHeight = $(floor).innerHeight();
 			let wrapperTop = $(floor).offset()?.top;
