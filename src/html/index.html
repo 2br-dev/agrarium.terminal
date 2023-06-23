@@ -2,65 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="/css/master.css">
 </head>
-<body data-lang="ru">
-	<div class="row flex main-wrapper">
-		<div class="col l9">
-			<div class="row flex vcenter map-header">
-				<div class="col l2">
-					<img src="/img/v.png" alt="">
-				</div>
-				<div class="col l4">
-					<h1 data-en="Welcome, enrollee!" data-ru="Привет, абитуриент!"></h1>
-				</div>
-				<div class="col l5">
-					<div class="intro">
-						<strong 
-							data-en="We're glad to welcome you in your in-future alma-mater"
-							data-ru="Мы рады видеть тебя в стенах твоей будущей альма-матер!"
-							>
-						</strong>
-						<p 
-							data-ru="Этот терминал навигации построит маршрут к нужному кабинету, достаточно выбрать пункт назначения из списка справа. Если в списке чего-то нет, переключись между этажами, наверняка это есть на другом этаже... И помни: кто ищет, тот всегда найдёт!"
-							data-en="This navigation terminal will guide you to room you looking for, all you need - choose destination from list at right. If you doesn't find something, check out another floor, may be it's there. Remember, who searching that founds!"
-						>	
-						</p>
-						<ul class="tabs">
-							<li class="tab active"><a href="#floor1" data-ru="Этаж 1" data-en="1st floor"></a></li>
-							<li class="tab"><a href="#floor2" data-ru="Этаж 2" data-en="2nd floor"></a></li>
-							<li class="indicator"></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="map-wrapper">
-				<div class="floor" id="floor-1">
-					@@include('./parts/1st_floor.svg')
-				</div>
-				<div class="floor" id="floor-2">
-					@@include('./parts/2nd_floor.svg')
-				</div>
-			</div>
-			<div class="additional-navi">
-				<a href="" id="lang-switcher" data-en="ru" data-ru="en"></a>
-			</div>
-		</div>
-		<div class="col l3 navi-wrapper">
-
-			<div class="tab-content active" id="floor1">
-				<h2 data-ru="1 этаж" data-en="1st floor"></h2>
-				@@loop('./parts/auditory.html', './data/1st-floor.json')
-			</div>
-			<div class="tab-content" id="floor2">
-				<h2 data-ru="2 этаж" data-en="2nd floor"></h2>
-				@@loop('./parts/auditory.html', './data/2nd-floor.json')
-			</div>
-		</div>
+<body>
+	<div class="video-wrapper">
+		<video src="/img/video.mp4" playsinline muted autoplay loop id="intro-video"></video>
+		<a href="/navigator.html">&nbsp;</a>
 	</div>
-	<script src="/js/master.js"></script>
 </body>
 </html>

@@ -15,8 +15,9 @@
 		max-width: 100%;
 		aspect-ratio: 3 / 1;
 		overflow: auto;
-		// overflow: hidden;
+		overflow: hidden;
 		position: relative;
+		transform: translateZ(0);
 	}
 
 }
@@ -40,12 +41,16 @@
 	transition: fill .2s;
 
 	&.active{
-		fill: $primary;
+		fill: $accent;
 	}
 }
 
 .infrastructure{
-	fill: $secondary;
+	fill: $inactive;
+
+	&.active{
+		fill: $accent;
+	}
 }
 
 .icon{

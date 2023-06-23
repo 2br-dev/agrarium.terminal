@@ -138,8 +138,8 @@
 		<rect id="r230" class="active-room" x="1536.21" y="464.03" width="69.89" height="71.41" rx="3.66"/>
 		<rect id="r253" class="active-room" x="409.63" y="263.62" width="81.41" height="55.38" rx="3.66"/>
 		<rect id="r242" class="active-room" x="1378.9" y="371.26" width="74.81" height="57.36" rx="3.66"/>
-		<rect id="rrestroom2m" class="infrastructure" x="1219.7" y="371.26" width="37.06" height="57.36" rx="3.66"/>
-		<rect id="rrestroom2f" class="infrastructure" y="371.26" width="38.24" height="57.36" rx="3.66"/>
+		<rect id="restroom2m" class="infrastructure" x="1219.7" y="371.26" width="37.06" height="57.36" rx="3.66"/>
+		<rect id="restroom2f" class="infrastructure" y="371.26" width="38.24" height="57.36" rx="3.66"/>
 	</g>
 	<g id="paths">
 		<path id="p225" class="path" d="M707,337.14h390.86a11,11,0,0,1,11,11v87.13a11,11,0,0,0,11,11h48.72a11,11,0,0,1,11,11V464" transform="translate(-0.18 0.03)"/>
